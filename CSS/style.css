@@ -12,6 +12,60 @@
   top: 30%;
   height: 45vh;
   width: 45%;
+  /* box-sizing: content-box; */
   background-color: #ffb822;
   padding: 30px;
+}
+
+#herocont h1 {
+  position: absolute;
+  /* right: 0; */
+  left: 40%;
+  font-size: 5rem;
+}
+
+#herocont p {
+  position: absolute;
+  bottom: 10%;
+  left: 60%;
+  font-size: 3rem;
+}
+
+#showbtn {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+}
+
+/* card section */
+
+.cardimage1 {
+  height: 20vh;
+  background-image: url("../Images/pizza.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardimage2 {
+  height: 20vh;
+  background-image: url("../Images/crust.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardimage3 {
+  height: 20vh;
+  background-image: url("../Images/topping.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#cardcont {
+  height: 70vh;
+  width: 100%;
+  padding-top: 5%;
+  background-color: #ffb822;
 }
