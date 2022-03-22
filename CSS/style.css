@@ -39,7 +39,7 @@
 
 /* card section */
 
-.cardimage1 {
+/* .cardimage1 {
   height: 20vh;
   background-image: url("../Images/pizza.jpg");
   background-position: center center;
@@ -67,5 +67,15 @@
   height: 100vh;
   width: 100%;
   padding-top: 5%;
+  background-color: #ffb822;
+} */
+
+/* hidden section */
+
+#cardcont {
+  height: 180vh;
+  width: 100%;
+  padding-top: 5%;
+  padding: 10%;
   background-color: #ffb822;
 }
